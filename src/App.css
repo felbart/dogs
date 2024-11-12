@@ -33,6 +33,16 @@ body {
     color: #27272a;
     --type-first: "Barlow", sans-serif;
     --type-second: "Bree Serif", Georgia, serif;
+    --color-primary: #fbbf24;
+    --color-primary-lighter: #feefc7;
+    --color-primary-medium: #d99e06;
+    --color-primary-dark: #422006;
+    --color-secondary: #9333ea;
+    --color-black: #27272a;
+    --color-gray-100: #f4f4f5;
+    --color-gray-200: #e4e4e7;
+    --color-gray-600: #52525b;
+    --color-error: #dc2626;
     font-family: var(--type-first);
     font-weight: 400;
     padding-top: 5rem;
@@ -62,7 +72,7 @@ button, input {
     display: block;
     font-size: 1rem;
     font-family: var(--type-second);
-    color: #27272a;
+    color: var(--color-black);
 }
 
 .container{
