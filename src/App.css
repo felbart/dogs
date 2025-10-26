@@ -1,14 +1,27 @@
 *{
     box-sizing: border-box;
+    --color-primary: oklch(62.3% 0.214 259.815);
+    --color-primary-light: oklch(88.2% 0.059 254.128);
+    --color-primary-dark: oklch(37.9% 0.146 265.522);
+
+    --color-white: #ffffff;
+
+    --color-error: oklch(63.7% 0.237 25.331);
+
+    --color-gray-light: oklch(97% 0 0);
+    --color-gray: oklch(43.9% 0 0);
+    --color-gray-dark: oklch(14.5% 0 0);
 }
 
 
 body{
     margin: 0;
     padding-top: 4rem;
-    color: #262626;
+    color: var(--color-gray-dark);
     --type-first: "Nunito", sans-serif;
     --type-second: "Spectral", serif;
+
+    
     font-family: var(--type-first);
 }
 
